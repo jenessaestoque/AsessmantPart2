@@ -44,12 +44,17 @@ p {
 }
 
 .l-heading {
+    font-size: 80px;
+    padding; 20px 0;
 }
 
 .m-heading {
 }
 
 .lead {
+    line-height: 2rem;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .py-1 {
@@ -67,9 +72,20 @@ p {
 }
 
 .btn {
+    display: flex;
+    display: inline-block;
+    padding: 13px 10px;
+    background: rgb(4, 212, 4);
+    border-radius: 1em;
+    border: none;
+    width: 20%;
+    border: none;
+    color:#fff;
+    font-weight: 20px;
+    /* align-content: center; */
 }
-
 .btn:hover {
+    color: #fcf8f4;
 }
 
 .btn-dark {
@@ -113,31 +129,43 @@ p {
 
 /* Showcase */
 #showcase {
+    background: url("/img/main-background.jpg") no-repeat center center/cover; 
+    height: 100vh; 
+    color: #fff;  
+  
 }
 
 #showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
 }
-
 
 /* Section: What We Do */
 #what .items {
-    display: flex;
 }
 
 #what .items .item {
-    display: flex;
-    margin: 20px;
 }
 
 #what .items .item i {
-    background: #8bc946;
-    border-radius: 100%;
-    padding: 20px;
-}
-.text-primary {
-    color: #8bc946;
 }
 
+/* Section: Who We Are */
+#who {
+}
+
+#who div {
+}
+
+#who .who-img {
+}
 
 /* Section: Clients */
 #clients .items {
