@@ -118,25 +118,23 @@ p {
 #showcase .showcase-content {
 }
 
+
 /* Section: What We Do */
 #what .items {
+    display: flex;
 }
 
 #what .items .item {
+    display: flex;
+    margin: 20px;
 }
 
 #what .items .item i {
+    background: #8bc946;
+    border-radius: 100%;
+    padding: 20px;
 }
 
-/* Section: Who We Are */
-#who {
-}
-
-#who div {
-}
-
-#who .who-img {
-}
 
 /* Section: Clients */
 #clients .items {
