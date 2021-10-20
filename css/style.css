@@ -134,6 +134,9 @@ p {
     border-radius: 100%;
     padding: 20px;
 }
+.text-primary {
+    color: #8bc946;
+}
 
 
 /* Section: Clients */
